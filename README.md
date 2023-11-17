@@ -11,7 +11,7 @@ Frontend: HTML, Thymeleaf, Bootstrap
 Backend: Java with Spring Boot 2.7
 Database: MySQL
 ****************************************************************************************************
-2.Application flow :-
+2.Application flow :
      Browser<->EmployeeController<->EmployeeService<->EmployeeRepository<->MySQL
        <1>            <2>                       <3>              <4>          <5>
 i> When user hit Browser(Browser-side Validations provided),the httpRequest will 1st come to the <EmployeeController> 
